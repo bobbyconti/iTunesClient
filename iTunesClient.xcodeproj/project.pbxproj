@@ -16,6 +16,7 @@
 		C5147316227A05FE009D3098 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5147315227A05FE009D3098 /* Genre.swift */; };
 		C5147318227A0670009D3098 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5147317227A0670009D3098 /* Album.swift */; };
 		C514731A227A08B5009D3098 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5147319227A08B5009D3098 /* Song.swift */; };
+		C514731C227A0B80009D3098 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514731B227A0B80009D3098 /* Stub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C5147315227A05FE009D3098 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
 		C5147317227A0670009D3098 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		C5147319227A08B5009D3098 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		C514731B227A0B80009D3098 /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,9 @@
 			children = (
 				C5147313227A0575009D3098 /* Artist.swift */,
 				C5147317227A0670009D3098 /* Album.swift */,
-				C5147315227A05FE009D3098 /* Genre.swift */,
 				C5147319227A08B5009D3098 /* Song.swift */,
+				C5147315227A05FE009D3098 /* Genre.swift */,
+				C514731B227A0B80009D3098 /* Stub.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				C51472FF227A04E2009D3098 /* AppDelegate.swift in Sources */,
 				C5147316227A05FE009D3098 /* Genre.swift in Sources */,
 				C5147318227A0670009D3098 /* Album.swift in Sources */,
+				C514731C227A0B80009D3098 /* Stub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
