@@ -33,4 +33,18 @@ class AlbumListController: UITableViewController {
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return Constants.AlbumCellHeight
     }
+    
+    // MARK: - Navigation
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showAlbum" {
+            if let selectedIndexPath = tableView.indexPathForSelectedRow {
+                let selectedAlbum = dataSource.album(at: selectedIndexPath)
+                selectedAlbum.songs = Stub.songs
+                
+                let albumDetailController = segue.destination as! AlbumDetailController
+                albumDetailController.album = selectedAlbum
+            }
+        }
+    }
 }
