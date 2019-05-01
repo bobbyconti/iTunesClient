@@ -17,6 +17,7 @@
 		C5147318227A0670009D3098 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5147317227A0670009D3098 /* Album.swift */; };
 		C514731A227A08B5009D3098 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5147319227A08B5009D3098 /* Song.swift */; };
 		C514731C227A0B80009D3098 /* Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514731B227A0B80009D3098 /* Stub.swift */; };
+		C514731E227A0DE9009D3098 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514731D227A0DE9009D3098 /* SearchResultsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C5147317227A0670009D3098 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		C5147319227A08B5009D3098 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		C514731B227A0B80009D3098 /* Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stub.swift; sourceTree = "<group>"; };
+		C514731D227A0DE9009D3098 /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +70,6 @@
 				C5147311227A0500009D3098 /* Views */,
 				C5147310227A04F6009D3098 /* Models */,
 				C51472FE227A04E2009D3098 /* AppDelegate.swift */,
-				C5147300227A04E2009D3098 /* ViewController.swift */,
 				C5147302227A04E2009D3098 /* Main.storyboard */,
 				C5147305227A04E3009D3098 /* Assets.xcassets */,
 				C5147307227A04E3009D3098 /* LaunchScreen.storyboard */,
@@ -99,6 +100,8 @@
 		C5147312227A0506009D3098 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C5147300227A04E2009D3098 /* ViewController.swift */,
+				C514731D227A0DE9009D3098 /* SearchResultsController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				C5147314227A0575009D3098 /* Artist.swift in Sources */,
 				C5147301227A04E2009D3098 /* ViewController.swift in Sources */,
 				C51472FF227A04E2009D3098 /* AppDelegate.swift in Sources */,
+				C514731E227A0DE9009D3098 /* SearchResultsController.swift in Sources */,
 				C5147316227A05FE009D3098 /* Genre.swift in Sources */,
 				C5147318227A0670009D3098 /* Album.swift in Sources */,
 				C514731C227A0B80009D3098 /* Stub.swift in Sources */,
