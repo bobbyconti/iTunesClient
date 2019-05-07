@@ -28,6 +28,8 @@
 		C5147330227A2A7B009D3098 /* AlbumDetailDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C514732F227A2A7B009D3098 /* AlbumDetailDataSource.swift */; };
 		C5147332227A2AE6009D3098 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5147331227A2AE6009D3098 /* SongCell.swift */; };
 		C5147334227A2B58009D3098 /* SongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5147333227A2B58009D3098 /* SongViewModel.swift */; };
+		C5147337227A30E3009D3098 /* ItunesMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5147336227A30E3009D3098 /* ItunesMedia.swift */; };
+		C5147339227A311A009D3098 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5147338227A311A009D3098 /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		C514732F227A2A7B009D3098 /* AlbumDetailDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailDataSource.swift; sourceTree = "<group>"; };
 		C5147331227A2AE6009D3098 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
 		C5147333227A2B58009D3098 /* SongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewModel.swift; sourceTree = "<group>"; };
+		C5147336227A30E3009D3098 /* ItunesMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesMedia.swift; sourceTree = "<group>"; };
+		C5147338227A311A009D3098 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,7 @@
 		C5147310227A04F6009D3098 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C5147335227A30C5009D3098 /* Endpoint */,
 				C5147313227A0575009D3098 /* Artist.swift */,
 				C5147317227A0670009D3098 /* Album.swift */,
 				C5147319227A08B5009D3098 /* Song.swift */,
@@ -150,6 +155,15 @@
 				C5147333227A2B58009D3098 /* SongViewModel.swift */,
 			);
 			path = "View Models";
+			sourceTree = "<group>";
+		};
+		C5147335227A30C5009D3098 /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				C5147336227A30E3009D3098 /* ItunesMedia.swift */,
+				C5147338227A311A009D3098 /* Endpoint.swift */,
+			);
+			path = Endpoint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,8 +251,10 @@
 				C5147332227A2AE6009D3098 /* SongCell.swift in Sources */,
 				C5147316227A05FE009D3098 /* Genre.swift in Sources */,
 				C5147318227A0670009D3098 /* Album.swift in Sources */,
+				C5147339227A311A009D3098 /* Endpoint.swift in Sources */,
 				C5147321227A1350009D3098 /* SearchResultsDataSource.swift in Sources */,
 				C5147325227A198A009D3098 /* AlbumCell.swift in Sources */,
+				C5147337227A30E3009D3098 /* ItunesMedia.swift in Sources */,
 				C514731C227A0B80009D3098 /* Stub.swift in Sources */,
 				C514732E227A2850009D3098 /* AlbumDetailViewModel.swift in Sources */,
 			);
