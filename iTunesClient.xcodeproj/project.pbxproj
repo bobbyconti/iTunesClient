@@ -32,6 +32,7 @@
 		C5147339227A311A009D3098 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5147338227A311A009D3098 /* Endpoint.swift */; };
 		C54D4528228240140026B904 /* ItunesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D4527228240140026B904 /* ItunesEntity.swift */; };
 		C54D452A228241EC0026B904 /* QueryItemProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D4529228241EC0026B904 /* QueryItemProvider.swift */; };
+		C54D452C228244310026B904 /* ItunesAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D452B228244310026B904 /* ItunesAttributes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		C5147338227A311A009D3098 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		C54D4527228240140026B904 /* ItunesEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesEntity.swift; sourceTree = "<group>"; };
 		C54D4529228241EC0026B904 /* QueryItemProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryItemProvider.swift; sourceTree = "<group>"; };
+		C54D452B228244310026B904 /* ItunesAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAttributes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,9 +167,10 @@
 			isa = PBXGroup;
 			children = (
 				C5147338227A311A009D3098 /* Endpoint.swift */,
+				C54D4529228241EC0026B904 /* QueryItemProvider.swift */,
 				C5147336227A30E3009D3098 /* ItunesMedia.swift */,
 				C54D4527228240140026B904 /* ItunesEntity.swift */,
-				C54D4529228241EC0026B904 /* QueryItemProvider.swift */,
+				C54D452B228244310026B904 /* ItunesAttributes.swift */,
 			);
 			path = Endpoint;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				C514732A227A1C83009D3098 /* AlbumCellViewModel.swift in Sources */,
 				C51472FF227A04E2009D3098 /* AppDelegate.swift in Sources */,
 				C5147330227A2A7B009D3098 /* AlbumDetailDataSource.swift in Sources */,
+				C54D452C228244310026B904 /* ItunesAttributes.swift in Sources */,
 				C5147327227A1B6D009D3098 /* AlbumListDataSource.swift in Sources */,
 				C54D452A228241EC0026B904 /* QueryItemProvider.swift in Sources */,
 				C5147334227A2B58009D3098 /* SongViewModel.swift in Sources */,

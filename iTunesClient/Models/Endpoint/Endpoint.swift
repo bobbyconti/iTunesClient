@@ -59,6 +59,10 @@ extension Itunes: Endpoint {
                 if let entityQueryItem = media.entityQueryItem {
                     result.append(entityQueryItem)
                 }
+                
+                if let attributeQueryItem = media.attributeQueryItem {
+                    result.append(attributeQueryItem)
+                }
             }
             
             return result
