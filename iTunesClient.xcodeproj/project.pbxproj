@@ -35,6 +35,7 @@
 		C54D452C228244310026B904 /* ItunesAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D452B228244310026B904 /* ItunesAttributes.swift */; };
 		C54D452F228247A50026B904 /* JSONDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D452E228247A50026B904 /* JSONDownloader.swift */; };
 		C54D4531228248230026B904 /* ItunesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D4530228248230026B904 /* ItunesError.swift */; };
+		C54D4533228249B20026B904 /* ItunesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D4532228249B20026B904 /* ItunesAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		C54D452B228244310026B904 /* ItunesAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAttributes.swift; sourceTree = "<group>"; };
 		C54D452E228247A50026B904 /* JSONDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDownloader.swift; sourceTree = "<group>"; };
 		C54D4530228248230026B904 /* ItunesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesError.swift; sourceTree = "<group>"; };
+		C54D4532228249B20026B904 /* ItunesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 			children = (
 				C54D452E228247A50026B904 /* JSONDownloader.swift */,
 				C54D4530228248230026B904 /* ItunesError.swift */,
+				C54D4532228249B20026B904 /* ItunesAPIClient.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				C5147334227A2B58009D3098 /* SongViewModel.swift in Sources */,
 				C514732C227A2705009D3098 /* AlbumDetailController.swift in Sources */,
 				C514731E227A0DE9009D3098 /* SearchResultsController.swift in Sources */,
+				C54D4533228249B20026B904 /* ItunesAPIClient.swift in Sources */,
 				C5147323227A18DB009D3098 /* AlbumListController.swift in Sources */,
 				C5147332227A2AE6009D3098 /* SongCell.swift in Sources */,
 				C5147316227A05FE009D3098 /* Genre.swift in Sources */,
