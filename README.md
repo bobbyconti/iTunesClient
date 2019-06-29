@@ -29,7 +29,7 @@ iTunesClient is an iOS app that allows users to search for artists using the iTu
 2. Open the project in Xcode
 3. Run the simulator
 
-## :clap: Acknowledgements
+## Acknowledgements
 
 The following resources were used in the development of this project. All custom code is my own.
 
