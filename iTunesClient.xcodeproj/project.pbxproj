@@ -37,6 +37,7 @@
 		C54D4531228248230026B904 /* ItunesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D4530228248230026B904 /* ItunesError.swift */; };
 		C54D4533228249B20026B904 /* ItunesAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54D4532228249B20026B904 /* ItunesAPIClient.swift */; };
 		C5D5BDD122C7BCB9000E4C32 /* ArtworkDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D5BDD022C7BCB9000E4C32 /* ArtworkDownloader.swift */; };
+		C5D5BDD322C7F153000E4C32 /* PendingOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D5BDD222C7F153000E4C32 /* PendingOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		C54D4530228248230026B904 /* ItunesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesError.swift; sourceTree = "<group>"; };
 		C54D4532228249B20026B904 /* ItunesAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesAPIClient.swift; sourceTree = "<group>"; };
 		C5D5BDD022C7BCB9000E4C32 /* ArtworkDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkDownloader.swift; sourceTree = "<group>"; };
+		C5D5BDD222C7F153000E4C32 /* PendingOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 				C54D4530228248230026B904 /* ItunesError.swift */,
 				C54D4532228249B20026B904 /* ItunesAPIClient.swift */,
 				C5D5BDD022C7BCB9000E4C32 /* ArtworkDownloader.swift */,
+				C5D5BDD222C7F153000E4C32 /* PendingOperations.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				C54D4531228248230026B904 /* ItunesError.swift in Sources */,
 				C54D452F228247A50026B904 /* JSONDownloader.swift in Sources */,
 				C5D5BDD122C7BCB9000E4C32 /* ArtworkDownloader.swift in Sources */,
+				C5D5BDD322C7F153000E4C32 /* PendingOperations.swift in Sources */,
 				C514731A227A08B5009D3098 /* Song.swift in Sources */,
 				C5147314227A0575009D3098 /* Artist.swift in Sources */,
 				C5147301227A04E2009D3098 /* ViewController.swift in Sources */,
