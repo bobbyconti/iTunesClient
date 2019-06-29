@@ -36,12 +36,12 @@ class ItunesAPIClient {
             }
             
             guard let artistInfo = results.first else {
-                completion(nil, .jsonParsingFailure(message: "Results does not contain artist info."))
+                completion(nil, .jsonParsingFailure(message: "Results do not contain artist info."))
                 return
             }
             
             guard let artist = Artist(json: artistInfo) else {
-                completion(nil, .jsonParsingFailure(message: ("Could not parse artist information")))
+                completion(nil, .jsonParsingFailure(message: ("Could not parse artist info.")))
                 return
             }
             
@@ -50,6 +50,33 @@ class ItunesAPIClient {
             
             artist.albums = albums
             completion(artist, nil)
+        }
+    }
+    
+    func lookupAlbum(withId id: Int, completion: @escaping (Album?, ItunesError?) -> Void) {
+        let endpoint = Itunes.lookup(id: id, entity: MusicEntity.song)
+        
+        performRequest(with: endpoint) { results, error in
+            guard let results = results else {
+                completion(nil, error)
+                return
+            }
+            
+            guard let albumInfo = results.first else {
+                completion(nil, .jsonParsingFailure(message: "Results do not contain album info."))
+                return
+            }
+            
+            guard let album = Album(json: albumInfo) else {
+                completion(nil, .jsonParsingFailure(message: ("Could not parse album info.")))
+                return
+            }
+            
+            let songResults = results[1..<results.count]
+            let songs = songResults.compactMap { Song(json: $0) }
+            
+            album.songs = songs
+            completion(album, nil)
         }
     }
     
