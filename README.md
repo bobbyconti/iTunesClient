@@ -7,7 +7,7 @@
 
 ## Overview
 
-iTunesClient is an iOS app that allows users to search for artists using the iTunes Search API. The app incorporates:
+iTunesClient is an app that allows users to search for artists using the iTunes Search API. Search for artists to get a list of albums and call up detail views of album info! The app incorporates:
 
 - Swift
 - JSON
